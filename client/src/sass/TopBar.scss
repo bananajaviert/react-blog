@@ -1,0 +1,53 @@
+.top-bar {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+
+  .left,
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    .top-icon {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #444;
+      cursor: pointer;
+    }
+  }
+
+  .center {
+    flex: 2;
+    .top-list {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      .top-list-item {
+        margin-right: 20px;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .right {
+    .top-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .top-search-icon {
+      font-size: 1.2rem;
+      color: #666;
+      cursor: pointer;
+      margin-left: 0.9rem;
+    }
+  }
+}

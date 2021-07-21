@@ -1,0 +1,55 @@
+.write {
+  padding-top: 3.125rem;
+  .write-image {
+    margin-left: 9.375rem;
+    width: 70vw;
+    height: 15.625rem;
+    border-radius: 0.625rem;
+    object-fit: cover;
+  }
+  .write-form {
+    position: relative;
+    .write-form-group {
+      margin-left: 9.375rem;
+      display: flex;
+      align-items: center;
+      .write-icon {
+        width: 1.563rem;
+        height: 1.563rem;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        color: rgb(121, 118, 118);
+        cursor: pointer;
+      }
+      .write-input {
+        font-family: "Varela Round", sans-serif;
+        font-size: 1.875rem;
+        border: none;
+        padding: 1.25rem;
+        width: 70vw;
+      }
+      .write-input:focus {
+        outline: none;
+      }
+      .write-text {
+        font-size: 1.25rem;
+      }
+    }
+    .write-submit {
+      position: absolute;
+      top: 1.25rem;
+      right: 3.125rem;
+      color: white;
+      background-color: teal;
+      padding: 0.625rem;
+      border: none;
+      border-radius: 0.625rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  }
+}
